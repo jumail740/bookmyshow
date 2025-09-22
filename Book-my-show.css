@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.left img{
+    width: 150px;
+    height: 100px;
+}
+.firstnav{
+    display: flex;
+}
+.left{
+    padding-left: 100px;
+    display: flex;
+    justify-content: left;
+}
+.right{
+    padding-top: 30px;
+    padding-left: 500px;
+    gap: 20px;
+}
+.right select{
+    border: none;
+    outline: none;
+    gap: 20px;
+}
+.right button{
+    gap: 30px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(234, 82, 82);
+    color: white;
+}
+.right img{
+    width: 30px;
+    height: 20px;
+}
+.searchbar{
+   width: 100vw;
+   height: 100px;
+   
+}
+.box{
+    padding-top: 30px;
+}
+.left input{
+    padding-top: 30px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    
+}
+.left input::placeholder{
+    font-size: large;
+}
+.nav{
+    margin-top: 30px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    gap: 30px;
+    background-color: rgba(230, 230, 230, 0.505);
+   
+}
+.nav-left{
+    padding-top: 15px;
+    padding-left: 100px;
+}
+.nav-right{
+    padding-top: 15px;
+    padding-left: 500px;
+}
+.nav-left a{
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    
+}
+.nav-right a{
+    color: rgb(13, 13, 13);
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+.first-card{
+    background-color:  rgb(179, 179, 179);
+    text-align: center;
+}
+.first-card img{
+    border-radius: 10px;
+}
+
+.recomended{
+    display: flex;
+    padding-top: 30px;
+    background-color: white;
+    width: 100%;
+    
+}
+.recomended p{
+    padding-left: 150px;
+    font-size: xx-large;
+}
+.recomended a{
+    padding-left: 900px;
+    font-size: large;
+    color: red;
+}
+.movies1 img{
+      width: 200px;
+      height: 350px;
+}
+.recomended-movies{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+}
+.movies1{
+    padding-left: 150px;
+}
+.movies1 h6{
+    font-size: large;
+}

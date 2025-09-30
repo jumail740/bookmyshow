@@ -1056,19 +1056,34 @@
 }
 .linee{
     padding-top: 100px;
+    display: flex;
+    
    
     
 }
 .linee img{
-    padding-left: 700px;
+    position: relative;
+    top: -20px;
    
     
 }
-.linee p{
+.para-last p{
     padding-top: 00px;
     text-align: center;
     color: rgb(185, 184, 184);
     font-size: medium;
+}
+.line-1{
+    border: 1px solid black;
+    height: 0px;
+    width: 700px;
+
+}
+.line-2{
+    border: 1px solid black;
+    height: 0px;
+    width: 700px;
+
 }
 .media img{
     width: 40px;
